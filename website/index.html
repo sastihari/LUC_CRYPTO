@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUCIFER (LUC) - Built Right, Built to Last</title>
+    <meta name="description" content="LUCIFER (LUC) is a community-first cryptocurrency token built with transparency, security, and long-term sustainability in mind.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🔥</span>
+                <span class="logo-text">LUCIFER</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#security">Security</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#community">Community</a>
+            </div>
+            <a href="#buy" class="btn btn-primary">Get LUC</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">🚀 Now Live on Polygon</div>
+            <h1>LUCIFER <span class="gradient-text">(LUC)</span></h1>
+            <p class="hero-subtitle">Light in the Darkness of Crypto</p>
+            <p class="hero-description">
+                A community-first token built with multi-agent AI methodology. 
+                Transparent, secure, and designed for long-term sustainability.
+            </p>
+            <div class="hero-buttons">
+                <a href="#buy" class="btn btn-primary btn-lg">
+                    <span>Buy LUC</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7 13L13 7M13 7H7M13 7V13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#about" class="btn btn-secondary btn-lg">Learn More</a>
+            </div>
+            
+            <!-- Stats -->
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value">1B</div>
+                    <div class="stat-label">Total Supply</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">45%</div>
+                    <div class="stat-label">Community</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">2+</div>
+                    <div class="stat-label">Audits Planned</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">7</div>
+                    <div class="stat-label">AI Agents</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contract Address Bar -->
+    <section class="contract-bar">
+        <div class="container">
+            <div class="contract-info">
+                <span class="contract-label">Contract Address:</span>
+                <code class="contract-address" id="contractAddress">0x5FbDB2315678afecb367f032d93F642f64180aa3</code>
+                <button class="copy-btn" onclick="copyAddress()">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M4 4v10h10V4H4zm9 9H5V5h8v8z"/>
+                        <path d="M2 2v10h1V3h9V2H2z"/>
+                    </svg>
+                    Copy
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">About</span>
+                <h2>Built Different. <span class="gradient-text">Built Right.</span></h2>
+                <p>LUCIFER was designed using a 7-agent AI system, ensuring every aspect was carefully considered.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Multi-Agent Designed</h3>
+                    <p>7 specialized AI agents collaborated to design tokenomics, security, and architecture.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Security First</h3>
+                    <p>OpenZeppelin-based, audit-ready code with no admin backdoors or complex mechanisms.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Community Focused</h3>
+                    <p>45% of all tokens allocated to community - the largest single allocation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Transparent</h3>
+                    <p>All development decisions, code, and tokenomics are publicly documented.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Low Fees</h3>
+                    <p>Built on Polygon for fast, cheap transactions. Gas costs are minimal.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Immutable</h3>
+                    <p>No mint function, no pause, no blacklist. Simple, secure, and permanent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="section tokenomics-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Tokenomics</span>
+                <h2>Fair & <span class="gradient-text">Sustainable</span> Distribution</h2>
+                <p>Designed for long-term growth, not quick pumps.</p>
+            </div>
+            
+            <div class="tokenomics-content">
+                <div class="tokenomics-chart">
+                    <div class="chart-container">
+                        <div class="donut-chart">
+                            <svg viewBox="0 0 200 200">
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="#1f2937" stroke-width="30"/>
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="#8b5cf6" stroke-width="30" 
+                                        stroke-dasharray="226.19 276.46" stroke-dashoffset="69.115"/>
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="#f59e0b" stroke-width="30" 
+                                        stroke-dasharray="75.40 427.26" stroke-dashoffset="-157.08"/>
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="#10b981" stroke-width="30" 
+                                        stroke-dasharray="100.53 402.12" stroke-dashoffset="-232.48"/>
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="#3b82f6" stroke-width="30" 
+                                        stroke-dasharray="75.40 427.26" stroke-dashoffset="-333.01"/>
+                                <circle cx="100" cy="100" r="80" fill="none" stroke="#ec4899" stroke-width="30" 
+                                        stroke-dasharray="25.13 477.52" stroke-dashoffset="-408.41"/>
+                            </svg>
+                            <div class="chart-center">
+                                <span class="chart-total">1B</span>
+                                <span class="chart-label">Total Supply</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tokenomics-breakdown">
+                    <div class="allocation-item">
+                        <div class="allocation-color" style="background: #8b5cf6;"></div>
+                        <div class="allocation-info">
+                            <span class="allocation-name">Community & Ecosystem</span>
+                            <span class="allocation-percent">45%</span>
+                        </div>
+                        <span class="allocation-amount">450,000,000 LUC</span>
+                    </div>
+                    <div class="allocation-item">
+                        <div class="allocation-color" style="background: #10b981;"></div>
+                        <div class="allocation-info">
+                            <span class="allocation-name">Development Fund</span>
+                            <span class="allocation-percent">20%</span>
+                        </div>
+                        <span class="allocation-amount">200,000,000 LUC</span>
+                    </div>
+                    <div class="allocation-item">
+                        <div class="allocation-color" style="background: #f59e0b;"></div>
+                        <div class="allocation-info">
+                            <span class="allocation-name">Team (4yr vesting)</span>
+                            <span class="allocation-percent">15%</span>
+                        </div>
+                        <span class="allocation-amount">150,000,000 LUC</span>
+                    </div>
+                    <div class="allocation-item">
+                        <div class="allocation-color" style="background: #3b82f6;"></div>
+                        <div class="allocation-info">
+                            <span class="allocation-name">Initial Liquidity</span>
+                            <span class="allocation-percent">15%</span>
+                        </div>
+                        <span class="allocation-amount">150,000,000 LUC</span>
+                    </div>
+                    <div class="allocation-item">
+                        <div class="allocation-color" style="background: #ec4899;"></div>
+                        <div class="allocation-info">
+                            <span class="allocation-name">Advisors</span>
+                            <span class="allocation-percent">5%</span>
+                        </div>
+                        <span class="allocation-amount">50,000,000 LUC</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tokenomics-features">
+                <div class="token-feature">
+                    <span class="feature-check">✓</span>
+                    <span>Fixed Supply - No Inflation</span>
+                </div>
+                <div class="token-feature">
+                    <span class="feature-check">✓</span>
+                    <span>Team Tokens Vested 4 Years</span>
+                </div>
+                <div class="token-feature">
+                    <span class="feature-check">✓</span>
+                    <span>Liquidity Locked 12+ Months</span>
+                </div>
+                <div class="token-feature">
+                    <span class="feature-check">✓</span>
+                    <span>No Hidden Allocations</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Section -->
+    <section id="security" class="section security-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Security</span>
+                <h2>Enterprise-Grade <span class="gradient-text">Security</span></h2>
+                <p>Built with the same principles as ETH, USDT, and other major tokens.</p>
+            </div>
+            
+            <div class="security-grid">
+                <div class="security-card">
+                    <div class="security-icon">🔐</div>
+                    <h3>OpenZeppelin Standard</h3>
+                    <p>Built on battle-tested, audited OpenZeppelin contracts used by billions in TVL.</p>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">📝</div>
+                    <h3>Audit Ready</h3>
+                    <p>Contract designed for easy auditing. 2+ independent audits planned before mainnet.</p>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">🚫</div>
+                    <h3>No Admin Functions</h3>
+                    <p>No mint, no pause, no blacklist. Code is immutable after deployment.</p>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">✅</div>
+                    <h3>25 Test Cases</h3>
+                    <p>Comprehensive test suite covering all functions, edge cases, and security scenarios.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="section roadmap-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Roadmap</span>
+                <h2>Our <span class="gradient-text">Journey</span></h2>
+                <p>Long-term vision, not quick pumps.</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item completed">
+                    <div class="timeline-marker">✅</div>
+                    <div class="timeline-content">
+                        <h3>Phase 1: Foundation</h3>
+                        <p>Design, development, and testing of core smart contracts.</p>
+                        <span class="timeline-status">Completed</span>
+                    </div>
+                </div>
+                <div class="timeline-item active">
+                    <div class="timeline-marker">🔄</div>
+                    <div class="timeline-content">
+                        <h3>Phase 2: Testing</h3>
+                        <p>Testnet deployment, community testing, and bug bounties.</p>
+                        <span class="timeline-status">In Progress</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">⏳</div>
+                    <div class="timeline-content">
+                        <h3>Phase 3: Audits</h3>
+                        <p>2+ independent security audits and fixes.</p>
+                        <span class="timeline-status">Q1 2026</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">⏳</div>
+                    <div class="timeline-content">
+                        <h3>Phase 4: Launch</h3>
+                        <p>Mainnet deployment, DEX listings, and liquidity.</p>
+                        <span class="timeline-status">Q2 2026</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">⏳</div>
+                    <div class="timeline-content">
+                        <h3>Phase 5: Growth</h3>
+                        <p>CEX listings, partnerships, and ecosystem expansion.</p>
+                        <span class="timeline-status">Q3 2026+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="section community-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Community</span>
+                <h2>Join the <span class="gradient-text">Movement</span></h2>
+                <p>Be part of a transparent, community-first project.</p>
+            </div>
+            
+            <div class="social-grid">
+                <a href="#" class="social-card">
+                    <div class="social-icon">📱</div>
+                    <h3>Telegram</h3>
+                    <p>Join our community chat</p>
+                </a>
+                <a href="#" class="social-card">
+                    <div class="social-icon">💬</div>
+                    <h3>Discord</h3>
+                    <p>Connect with the team</p>
+                </a>
+                <a href="https://github.com/sastihari/LUC_CRYPTO" class="social-card">
+                    <div class="social-icon">📂</div>
+                    <h3>GitHub</h3>
+                    <p>View the source code</p>
+                </a>
+                <a href="https://gitlab.com/lucifer9442403/LUCIFER_CRYPTO" class="social-card">
+                    <div class="social-icon">🦊</div>
+                    <h3>GitLab</h3>
+                    <p>Alternative repository</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="buy" class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get <span class="gradient-text">LUC</span>?</h2>
+                <p>Join thousands of community members building the future of crypto.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary btn-lg">Buy on QuickSwap</a>
+                    <a href="#" class="btn btn-secondary btn-lg">View on PolygonScan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🔥</span>
+                        <span class="logo-text">LUCIFER</span>
+                    </div>
+                    <p>Light in the Darkness of Crypto</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#tokenomics">Tokenomics</a>
+                    <a href="#security">Security</a>
+                    <a href="#roadmap">Roadmap</a>
+                    <a href="https://github.com/sastihari/LUC_CRYPTO">GitHub</a>
+                </div>
+            </div>
+            
+            <div class="footer-disclaimer">
+                <p>
+                    <strong>⚠️ DISCLAIMER:</strong> LUCIFER (LUC) is a utility token. It is NOT an investment 
+                    and does not represent ownership or rights beyond platform utility. Cryptocurrency involves 
+                    significant risk. You may lose your entire investment. This is not financial advice. DYOR.
+                </p>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 LUCIFER (LUC). Built with ❤️ by Multi-Agent AI System.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
